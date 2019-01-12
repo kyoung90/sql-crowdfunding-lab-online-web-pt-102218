@@ -2,7 +2,7 @@ CREATE TABLE project(
   id PRIMARY KEY,
   title TEXT,
   category TEXT,
-  funding_goal TEXT,
+  funding_goal REAL,
   start_date TEXT,
   end_date TEXT
 );
